@@ -1,0 +1,44 @@
+run            energy
+coordinates    ../water1.xyz
+method         rohf
+charge         1
+spinmult       2
+
+gpus           1  0
+basis          cc-pvtz-nof-evtemp-4s4p4d
+guess          scr-fanoci-1s-neutral-4spd/c0
+scrdir         scr-fanoci-1s-mom-4spd
+
+precision      double
+threall        1.0e-20
+convthre       1.0e-7
+xtol           5.0e-4
+#sphericalbasis  1
+
+##### CASCI code param ############3
+casci          yes
+closed         0
+#active occupied orbitals+one virtual
+active        6
+
+# Up to now, all keywords can be found in TC manual
+
+print_mo2int   yes
+print_mo2int_partial  yes
+print_mo2int_nfzv     0
+
+# Do not pring integrals below this threshold
+# it makes the resulting moint.txt smaller
+print_mo2int_thre     1e-11
+
+
+mom            yes
+start_mom      0
+mix_guess      0
+mom_norm       1
+end
+
+$excitations
+beta 1 5
+$end
+

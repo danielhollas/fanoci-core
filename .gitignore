@@ -1,0 +1,16 @@
+
+# TC outputs that are too big
+c0
+ca0
+cb0
+pab0
+*.molden
+job.log*
+*.e[0-9]+
+*.o[0-9]+
+
+# FANOCI stuff
+fort.*
+Eigval.*
+Eigvec.*
+coeff.*
