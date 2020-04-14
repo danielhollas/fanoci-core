@@ -10,7 +10,12 @@ job.log*
 *.o[0-9]+
 
 # FANOCI stuff
-fort.*
+fort.???
 Eigval.*
 Eigvec.*
 coeff.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+

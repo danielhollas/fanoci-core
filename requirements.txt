@@ -1,0 +1,5 @@
+numpy==1.18.*
+matplotlib==3.1.*
+seaborn==0.8.*
+bqplot
+pandas
