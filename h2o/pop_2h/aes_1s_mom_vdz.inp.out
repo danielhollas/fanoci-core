@@ -1,0 +1,524 @@
+Startfile from command line: aes_1s_mom_vdz.inp
+
+
+       ***********************************************************
+       *                    TeraChem v1.93-fanoci                *
+       *                 Hg Version: 94d63ba48a25                *
+       *                   Development Version                   *
+       *                Compiled without textures                *
+       *           Chemistry at the Speed of Graphics!           *
+       ***********************************************************
+       * This program may only be used in connection with        *
+       * a valid license from PetaChem, LLC. Use of this program *
+       * or results thereof indicates acceptance of all terms    *
+       * and conditions stated in the license and that a valid   *
+       * license agreement between the user and PetaChem, LLC    *
+       * exists. PetaChem, LLC does not warrant the correctness  *
+       * of results or their suitability for any purpose.        *
+       * Please email bugs, suggestions, and comments to         *
+       *                  help@petachem.com                      *
+       *                                                         *
+       ***********************************************************
+
+
+       ***********************************************************
+       *  Compiled by hollas       Wed May 13 20:46:02 CEST 2020  *
+       *  Supported architectures: sm_52 sm_60 sm_70             *
+       *  Cuda compilation tools, release 9.0, V9.0.176          *
+       ***********************************************************
+
+
+ Job started   Fri May 15 06:59:28 2020
+ On n29 (available memory: 45861 MB)
+
+######################################### RUNTIME INFO ##########################################
+/home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/bin/terachem aes_1s_mom_vdz.inp 
+
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  415.25  Wed Dec 12 10:22:08 CST 2018
+GCC version:  gcc version 4.7.2 (Debian 4.7.2-5) 
+
+	linux-vdso.so.1 =>  (0x00007fff923ff000)
+	libcurl.so.4 => /usr/lib/x86_64-linux-gnu/libcurl.so.4 (0x00002ac585359000)
+	libgpubox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libgpubox.so.1 (0x00002ac5855c3000)
+	libtensorbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libtensorbox.so.1 (0x00002ac5857c9000)
+	libintbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libintbox.so.1 (0x00002ac5859e2000)
+	libthcbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libthcbox.so.1 (0x00002ac59bfcc000)
+	libgridbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libgridbox.so.1 (0x00002ac59d3a3000)
+	libdftbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libdftbox.so.1 (0x00002ac59d7fe000)
+	libcibox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcibox.so.1 (0x00002ac59dae1000)
+	libccbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libccbox.so.1 (0x00002ac59de7c000)
+	libsandboxbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libsandboxbox.so.1 (0x00002ac59e07d000)
+	libcuda.so.1 => /usr/local/programs/cuda/driver/usr/lib/x86_64-linux-gnu/libcuda.so.1 (0x00002ac59e280000)
+	libcudart.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcudart.so.9.0 (0x00002ac59f373000)
+	libcublas.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcublas.so.9.0 (0x00002ac59f5e0000)
+	libcufft.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcufft.so.9.0 (0x00002ac5a325e000)
+	libcusparse.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcusparse.so.9.0 (0x00002ac5ab2ff000)
+	libcrypto.so.1.0.0 => /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 (0x00002ac5aea65000)
+	libssl.so.1.0.0 => /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 (0x00002ac5aee60000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00002ac5af0c1000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00002ac5af3c8000)
+	libcilkrts.so.5 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcilkrts.so.5 (0x00002ac5af64b000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00002ac5af886000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00002ac5afa9c000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00002ac5afcb9000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002ac585137000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00002ac5b0044000)
+	libidn.so.11 => /usr/lib/x86_64-linux-gnu/libidn.so.11 (0x00002ac5b0248000)
+	libssh2.so.1 => /usr/lib/x86_64-linux-gnu/libssh2.so.1 (0x00002ac5b047d000)
+	liblber-2.4.so.2 => /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2 (0x00002ac5b06a6000)
+	libldap_r-2.4.so.2 => /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2 (0x00002ac5b08b5000)
+	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00002ac5b0b07000)
+	libgssapi_krb5.so.2 => /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00002ac5b0d0f000)
+	librtmp.so.0 => /usr/lib/x86_64-linux-gnu/librtmp.so.0 (0x00002ac5b0f4f000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00002ac5b116a000)
+	libnvidia-fatbinaryloader.so.415.25 => /usr/local/programs/cuda/driver/usr/lib/x86_64-linux-gnu/libnvidia-fatbinaryloader.so.415.25 (0x00002ac5b1382000)
+	libgcrypt.so.11 => /lib/x86_64-linux-gnu/libgcrypt.so.11 (0x00002ac5b15cf000)
+	libresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00002ac5b184f000)
+	libsasl2.so.2 => /usr/lib/x86_64-linux-gnu/libsasl2.so.2 (0x00002ac5b1a65000)
+	libgnutls.so.26 => /usr/lib/x86_64-linux-gnu/libgnutls.so.26 (0x00002ac5b1c80000)
+	libkrb5.so.3 => /usr/lib/x86_64-linux-gnu/libkrb5.so.3 (0x00002ac5b1f41000)
+	libk5crypto.so.3 => /usr/lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00002ac5b2215000)
+	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00002ac5b243e000)
+	libkrb5support.so.0 => /usr/lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00002ac5b2643000)
+	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00002ac5b284c000)
+	libgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00002ac5b2a51000)
+	libtasn1.so.3 => /usr/lib/x86_64-linux-gnu/libtasn1.so.3 (0x00002ac5b2c54000)
+	libp11-kit.so.0 => /usr/lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00002ac5b2e65000)
+#################################################################################################
+
+Cannot find license.dat file in the TeraChem installation directory /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build
+
+
+TRYING THE NETWORK LICENSE...
+Connecting to license server '403-as67-01' port '8080'...
+Connected!
+Checking your license...
+
+**************************************************************
+  Greetings, Petr Slavicek! You have 100 licenses in total
+  IN USE: 0
+  AVAILABLE: 100
+**************************************************************
+
+Jobname: water_b3lyp_vdz
+Scratch directory: scr-aes-1s-mom-vdz
+Random number seed: 771704088
+
+XYZ coordinates water_b3lyp_vdz.xyz
+Molden File Output: scr-aes-1s-mom-vdz/water_b3lyp_vdz.molden
+Using basis set: cc-pvdz
+dmrgstart not found
+cibox_start not found
+Spin multiplicity: 2
+DIIS will use up to 10 vectors.
+Condition number limit for the DIIS overlap matrix is            0
+WF convergence threshold: 1.00e-07
+Using DIIS algorithm to converge WF
+Maximum number of SCF iterations: 100
+Incremental fock with rebuild every 8 iterations
+Will switch to conventional Fock if diffuse functions are detected
+X-matrix tolerance: 1.00e-04
+PRECISION: DOUBLE
+DFT Functional requested: hf
+Method: Hartree-Fock 
+Wavefunction: RESTRICTED OPEN SHELL
+Initial guess for alpha spin will be loaded from scr-aes-1s-neutral-vdz/c0
+Initial guess for beta spin will be loaded from scr-aes-1s-neutral-vdz/c0
+Number of excitations from initial orbital occupancy: 1 
+Maximum Overlap Method ON since SCF iteration 0!
+
+********************************************
+********************************************
+
+using 1 out of 1 CUDA devices
+   Device 0:  GeForce GTX TITAN X, 12212MB, CC 5.2 -- CPU THREAD 0
+-------------------------------------------------------------------
+Compiled with MAGMA support.  MAGMA parameters:
+    Matrices larger than 5000 square will be treated with MAGMA
+       (Change by setting the MagmaMinN environment variable)
+    Magma will use 1 out of 1 GPUs
+       (Change by setting the MagmaNGPUs environment variable)
+-------------------------------------------------------------------
+ CPU Memory Available: 16103.50 MegaWords 
+ GPU Memory Available: 1270.55 MegaWords 
+ Maximum recommended basis set size: 13300 basis functions
+ (limited by GPU memory)
+-------------------------------------------------------------------
+Reading basis set from file /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/basis/cc-pvdz
+Using d-functions. Configuring GPUs accordingly.
+0: CUBLAS initialized, available GPU memory: 9576MB
+
+****** QM coordinates ******
+O        -0.0099755784         0.0000000000         0.9726896344  
+H         0.0080215243         0.0000000000         0.0034780470  
+H         0.9319670541         0.0000000000         1.2005793185  
+
+Basis set:       cc-pvdz
+Total atoms:     3
+Total charge:    1
+Total electrons: 9 (5-alpha, 4-beta)
+Number electrons modeled by ECPs: 0
+Total orbitals:  25
+Total AO shells: 12 (7 S-shells; 4 P-shells; 1 D-shells; 0 F-shells; 0 G-shells)
+Spin multiplicity: 2
+Nuclear repulsion energy (QM atoms): 9.085406801537 a.u.
+
+Reordering initial orbitals for MOM.
+
+                      *** Start SCF Iterations ***
+
+ Iter     DIIS Error       Energy change         Energy        Time(s)
+------------------------------------------------------------------------
+Skip purify step
+Total MOM overlap 3.865582   / 4 
+Smallest overlap in the occupied space = 0.948639 
+   1     0.7124513513     -55.4606570418     -55.4606570418     0.06  
+Total MOM overlap 3.986391   / 4 
+Smallest overlap in the occupied space = 0.994909 
+   2     0.3347079790      -0.5216718384     -55.9823288802     0.06  
+Total MOM overlap 3.999929   / 4 
+Smallest overlap in the occupied space = 0.999954 
+   3     0.0324021853      -0.1560138441     -56.1383427243     0.06  
+Total MOM overlap 3.999999   / 4 
+Smallest overlap in the occupied space = 0.999999 
+   4     0.0060393317      -0.0008081514     -56.1391508757     0.05  
+Total MOM overlap 3.999999   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   5     0.0012500695      -0.0000183758     -56.1391692515     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   6     0.0002800282      -0.0000029768     -56.1391722283     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   7     0.0000314889      -0.0000001990     -56.1391724273     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   8     0.0000043993      -0.0000000030     -56.1391724304     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   9     0.0000005667      -0.0000000001     -56.1391724304     0.05  
+  10     0.0000000371      -0.0000000000     -56.1391724304     0.05  
+------------------------------------------------------------------------
+FINAL ENERGY: -56.1391724304 a.u.
+HOMO-LUMO GAP: alpha: 583.322 eV
+               beta:  -556.940 eV 
+CENTER OF MASS: {0.043740, 0.000000, 0.931207} ANGS
+DIPOLE MOMENT: {2.409739, -0.000000, -1.861334} (|D| = 3.044898) DEBYE
+SPIN SZ:         0.500000
+SPIN S-SQUARED: 0.750000 (exact: 0.75)
+Writing out molden info
+
+Running Mulliken population analysis...
+
+Sorting orbitals by energy.
+
+Writing out molden info
+
+  Active Space Parameters
+--------------------------------------------
+Number of closed orbitals:               1
+Number of active orbitals:               4
+Number of virtual orbitals:             20
+Number of molecular orbitals:           25
+Number of basis functions:              25
+Number of active electrons:              6
+Number of alpha electrons:               3
+Number of beta electrons:                3
+
+  Orbital      Energy  
+-----------------------
+      1      -21.608833
+      2       -1.967037
+      3       -1.289361
+      4       -1.196153
+      5       -1.141669
+      6       -0.172149
+      7       -0.097982
+
+  CAS Parameters
+--------------------------------------------
+Number of determinants:                 16
+Number of singlet CSFs:                 10
+Number of doublet CSFs:                  0
+Number of triplet CSFs:                  6
+Number of quartet CSFs:                  0
+Number of quintet CSFs:                  0
+Number of sextet CSFs:                   0
+Number of septet CSFs:                   0
+Number of singlet states:               10
+Number of doublet states:                0
+Number of triplet states:                6
+Number of quartet states:                0
+Number of quintet states:                0
+Number of sextet states:                 0
+Number of septet states:                 0
+Using the hard-coded solver
+
+Running AES calculation with 2h Population Analysis!
+Core MO = 0
+Core atom = 0
+Nocc 5
+
+Mulliken Population: Atom 0 MO 0 0.99940
+Mulliken Population: Atom 0 MO 1 1.65639
+Mulliken Population: Atom 0 MO 2 1.48943
+Mulliken Population: Atom 0 MO 3 1.79580
+Mulliken Population: Atom 0 MO 4 1.96659
+
+Singlet state  1 energy:        -74.56265315576880
+
+        0.97826373132887  X2 X3 X4
+       -0.18546759545726  X2 X3 X5
+       -0.06986231336979  X3 X4 X5
+       -0.03935675381613  X2 X4 X5
+       -0.03295559213454  A2 X3 B4 X5
+       -0.03295559213454  B2 X3 A4 X5
+
+Singlet state  2 energy:        -74.49661177598307
+
+       -0.70710635728130  X2 X3 A4 B5
+       -0.70710635728130  X2 X3 B4 A5
+
+Singlet state  3 energy:        -74.37250812896393
+
+        0.97266640788064  X2 X3 X5
+        0.17080624980989  X2 X3 X4
+       -0.11580710210923  X2 X4 X5
+       -0.09888198603300  X3 X4 X5
+       -0.02789559589305  A2 X3 B4 X5
+       -0.02789559589305  B2 X3 A4 X5
+
+Singlet state  4 energy:        -74.36586712555176
+
+       -0.70710677525134  X2 A3 X4 B5
+       -0.70710677525134  X2 B3 X4 A5
+
+Singlet state  5 energy:        -74.27951748497576
+
+       -0.70534568960322  X2 A3 B4 X5
+       -0.70534568960322  X2 B3 A4 X5
+       -0.04987399397550  A2 B3 X4 X5
+       -0.04987399397550  B2 A3 X4 X5
+
+Singlet state  6 energy:        -74.09673288816467
+
+       -0.98283539313707  X2 X4 X5
+        0.14965476428065  X3 X4 X5
+       -0.09261167199328  X2 X3 X5
+       -0.04486906739574  X2 X3 X4
+        0.02288913965052  A2 X3 B4 X5
+        0.02288913965052  B2 X3 A4 X5
+
+Singlet state  7 energy:        -73.57556804608612
+
+        0.70710636309265  A2 X3 X4 B5
+        0.70710636309265  B2 X3 X4 A5
+
+Singlet state  8 energy:        -73.52664612826254
+
+        0.69651300826797  A2 X3 B4 X5
+        0.69651300826797  B2 X3 A4 X5
+        0.14352330299872  X3 X4 X5
+        0.06817812990636  X2 X3 X4
+        0.04812358774113  X2 X3 X5
+        0.04664894347207  X2 X4 X5
+
+Singlet state  9 energy:        -73.30322848000851
+
+        0.70534569050003  A2 B3 X4 X5
+        0.70534569050003  B2 A3 X4 X5
+       -0.04987400069806  X2 A3 B4 X5
+       -0.04987400069806  X2 B3 A4 X5
+
+Singlet state 10 energy:        -72.74687672773408
+
+        0.97074513352720  X3 X4 X5
+        0.12999292717199  X2 X4 X5
+       -0.11172039082894  A2 X3 B4 X5
+       -0.11172039082894  B2 X3 A4 X5
+        0.09289246148731  X2 X3 X5
+        0.08463925628151  X2 X3 X4
+
+Triplet state  1 energy:        -74.60404394477793
+
+       -0.70465818530972  X2 X3 A4 B5
+        0.70465818530972  X2 X3 B4 A5
+       -0.05879471886983  A2 X3 X4 B5
+        0.05879471886983  B2 X3 X4 A5
+
+Triplet state  2 energy:        -74.44598401125774
+
+        0.70710676418346  X2 A3 X4 B5
+       -0.70710676418346  X2 B3 X4 A5
+
+Triplet state  3 energy:        -74.37072784137479
+
+       -0.70439365472010  X2 A3 B4 X5
+        0.70439365472010  X2 B3 A4 X5
+        0.06188358472644  A2 B3 X4 X5
+       -0.06188358472644  B2 A3 X4 X5
+
+Triplet state  4 energy:        -73.87651388046589
+
+        0.70465820125172  A2 X3 X4 B5
+       -0.70465820125172  B2 X3 X4 A5
+       -0.05879471295735  X2 X3 A4 B5
+        0.05879471295735  X2 X3 B4 A5
+
+Triplet state  5 energy:        -73.80363992946896
+
+        0.70710675983859  A2 X3 B4 X5
+       -0.70710675983859  B2 X3 A4 X5
+
+Triplet state  6 energy:        -73.64193574415927
+
+        0.70439363433836  A2 B3 X4 X5
+       -0.70439363433836  B2 A3 X4 X5
+        0.06188359107624  X2 A3 B4 X5
+       -0.06188359107624  X2 B3 A4 X5
+
+  Root   Mult.   Total Energy (a.u.)   Ex. Energy (a.u.)     Ex. Energy (eV)     Ex. Energy (nm)
+-------------------------------------------------------------------------------------------------
+     1  triplet        -74.60404394
+     2  singlet        -74.56265316          0.04139079          1.12630049       1100.80943758
+     3  singlet        -74.49661178          0.10743217          2.92337757        424.11292336
+     4  triplet        -74.44598401          0.15805993          4.30102891        288.26641993
+     5  singlet        -74.37250813          0.23153582          6.30040907        196.78757263
+     6  triplet        -74.37072784          0.23331610          6.34885315        195.28601115
+     7  singlet        -74.36586713          0.23817682          6.48111994        191.30061153
+     8  singlet        -74.27951748          0.32452646          8.83081282        140.39955694
+     9  singlet        -74.09673289          0.50731106         13.80463394         89.81347947
+    10  triplet        -73.87651388          0.72753006         19.79709704         62.62747535
+    11  triplet        -73.80363993          0.80040402         21.78009781         56.92546551
+    12  triplet        -73.64193574          0.96210820         26.18029185         47.35784514
+    13  singlet        -73.57556805          1.02847590         27.98624850         44.30183656
+    14  singlet        -73.52664613          1.07739782         29.31748140         42.29020188
+    15  singlet        -73.30322848          1.30081546         35.39698392         35.02677544
+    16  singlet        -72.74687673          1.85716722         50.53608287         24.53380113
+
+Singlet state dipole moments:
+
+  Root       Dx         Dy         Dz         |D|  (Debye)
+------------------------------------------------------------
+     1     2.2540     0.0000    -1.7410     2.8481
+     2     2.0143    -0.0000    -1.5561     2.5454
+     3     1.8887    -0.0000    -1.4594     2.3869
+     4     2.7824    -0.0000    -2.1493     3.5159
+     5     2.3145    -0.0000    -1.7880     2.9247
+     6     3.2333    -0.0000    -2.4977     4.0857
+     7     2.7876    -0.0000    -2.1526     3.5220
+     8     1.8473    -0.0000    -1.4267     2.3340
+     9     3.4328    -0.0000    -2.6521     4.3380
+    10     3.8191    -0.0000    -2.9479     4.8245
+
+Triplet state dipole moments:
+
+  Root       Dx         Dy         Dz         |D|  (Debye)
+------------------------------------------------------------
+     1     1.8122    -0.0000    -1.3999     2.2899
+     2     2.7823    -0.0000    -2.1495     3.5159
+     3     2.2748    -0.0000    -1.7577     2.8748
+     4     2.9899     0.0000    -2.3086     3.7775
+     5     2.4925    -0.0000    -1.9247     3.1491
+     6     3.4728    -0.0000    -2.6820     4.3879
+
+Singlet state electronic transitions:
+
+ Transition      Tx        Ty        Tz       |T|    Osc. (a.u.) 
+-----------------------------------------------------------------
+   1 ->  2     0.0000   -0.1188   -0.0000    0.1188    0.0006
+   1 ->  3     0.0678    0.0000   -0.0524    0.0857    0.0009
+   1 ->  4     0.0000   -0.0001    0.0000    0.0001    0.0000
+   1 ->  5    -0.0112   -0.0000   -0.0144    0.0183    0.0001
+   1 ->  6     0.0138    0.0000   -0.0107    0.0175    0.0001
+   1 ->  7    -0.0000    0.7297    0.0000    0.7297    0.3504
+   1 ->  8     0.1735    0.0000   -0.1340    0.2192    0.0332
+   1 ->  9     0.0636   -0.0000    0.0824    0.1041    0.0091
+   1 -> 10    -0.0166    0.0000    0.0128    0.0210    0.0005
+   2 ->  3     0.0000   -0.1883   -0.0000    0.1883    0.0029
+   2 ->  4     0.0423   -0.0000    0.0550    0.0694    0.0004
+   2 ->  5    -0.0000    0.0001   -0.0000    0.0001    0.0000
+   2 ->  6    -0.0000    0.0069    0.0000    0.0069    0.0000
+   2 ->  7     0.4867    0.0000   -0.3759    0.6150    0.2323
+   2 ->  8     0.0000   -0.5852   -0.0000    0.5852    0.2214
+   2 ->  9    -0.0000    0.0001    0.0000    0.0001    0.0000
+   2 -> 10     0.0000    0.0586   -0.0000    0.0586    0.0040
+   3 ->  4    -0.0000    0.0000    0.0000    0.0000    0.0000
+   3 ->  5    -0.0765   -0.0000   -0.0993    0.1254    0.0010
+   3 ->  6     0.0399    0.0000   -0.0308    0.0504    0.0005
+   3 ->  7    -0.0000    0.0533   -0.0000    0.0533    0.0015
+   3 ->  8    -0.6080   -0.0000    0.4696    0.7682    0.3328
+   3 ->  9     0.1235    0.0000    0.1598    0.2020    0.0291
+   3 -> 10     0.0612    0.0000   -0.0473    0.0773    0.0065
+   4 ->  5    -0.0000    0.1705    0.0000    0.1705    0.0017
+   4 ->  6     0.0000    0.0001   -0.0000    0.0001    0.0000
+   4 ->  7     0.4288   -0.0000    0.5552    0.7015    0.2593
+   4 ->  8    -0.0000   -0.0001    0.0000    0.0001    0.0000
+   4 ->  9     0.0000   -0.5620   -0.0000    0.5620    0.2237
+   4 -> 10     0.0000    0.0001   -0.0000    0.0001    0.0000
+   5 ->  6     0.0416    0.0000    0.0542    0.0683    0.0006
+   5 ->  7    -0.0000   -0.0000   -0.0000    0.0000    0.0000
+   5 ->  8     0.4211   -0.0000    0.5450    0.6887    0.2381
+   5 ->  9     0.4600    0.0000   -0.3553    0.5813    0.2199
+   5 -> 10    -0.0333   -0.0000   -0.0430    0.0544    0.0030
+   6 ->  7     0.0000    0.0891    0.0000    0.0891    0.0028
+   6 ->  8    -0.0485   -0.0000    0.0375    0.0613    0.0014
+   6 ->  9     0.5108   -0.0000    0.6616    0.8358    0.3696
+   6 -> 10    -0.0085    0.0000    0.0065    0.0107    0.0001
+   7 ->  8    -0.0000    0.3006    0.0000    0.3006    0.0029
+   7 ->  9    -0.0000    0.0002   -0.0000    0.0002    0.0000
+   7 -> 10    -0.0000    0.8340    0.0000    0.8340    0.3842
+   8 ->  9    -0.0446   -0.0000   -0.0574    0.0727    0.0008
+   8 -> 10    -0.6572   -0.0000    0.5075    0.8304    0.3584
+   9 -> 10    -0.6781    0.0000   -0.8783    1.1096    0.4567
+
+Triplet state electronic transitions:
+
+ Transition      Tx        Ty        Tz       |T|    Osc. (a.u.) 
+-----------------------------------------------------------------
+   1 ->  2    -0.0060   -0.0000   -0.0080    0.0100    0.0000
+   1 ->  3     0.0000   -0.0001    0.0000    0.0001    0.0000
+   1 ->  4     0.4543    0.0000   -0.3509    0.5740    0.1598
+   1 ->  5    -0.0000    0.5598    0.0000    0.5598    0.1672
+   1 ->  6     0.0000   -0.0000   -0.0000    0.0000    0.0000
+   2 ->  3     0.0000   -0.1801   -0.0000    0.1801    0.0016
+   2 ->  4    -0.4308    0.0000   -0.5579    0.7049    0.1886
+   2 ->  5     0.0000   -0.0000    0.0000    0.0000    0.0000
+   2 ->  6     0.0000   -0.5590   -0.0000    0.5590    0.1675
+   3 ->  4     0.0000    0.0000    0.0000    0.0000    0.0000
+   3 ->  5     0.4308   -0.0000    0.5580    0.7049    0.1879
+   3 ->  6    -0.4523   -0.0000    0.3493    0.5715    0.1587
+   4 ->  5    -0.0000    0.1776    0.0000    0.1776    0.0015
+   4 ->  6    -0.0000    0.0001   -0.0000    0.0001    0.0000
+   5 ->  6     0.0041    0.0000    0.0056    0.0070    0.0000
+
+Auger electron intensities based on 2hole analysis:
+
+State   Mult   I(Mulliken)
+--------------------------
+   1     1     1.00000
+   2     1     1.84228
+   3     1     0.84066
+   4     1     1.55446
+   5     1     1.40404
+   6     1     0.58462
+   7     1     1.70828
+   8     1     1.52748
+   9     1     1.28852
+  10     1     0.73590
+  11     3     0.01157
+  12     3     0.08889
+  13     3     0.03645
+  14     3     0.03739
+  15     3     0.00759
+  16     3     0.01108
+
+Total CASCI Time
+----------------------------
+ Total Time:       0.11 sec
+----------------------------
+
+Total processing time: 0.88 sec 
+
+ Job finished: Fri May 15 06:59:34 2020
+

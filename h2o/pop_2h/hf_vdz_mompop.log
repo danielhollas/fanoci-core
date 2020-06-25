@@ -1,0 +1,261 @@
+ Entering Gaussian System, Link 0=/home/slavicek/G03/g09-altix/g09//g09
+ Input=hf_vdz_mompop.inp
+ Output=hf_vdz_mompop.log
+ Initial command:
+ /home/slavicek/G03/g09-altix/g09/l1.exe "/scratch/hollas/GAUSS_hf_vdz_mompop.inp_267689/Gau-25021.inp" -scrdir="/scratch/hollas/GAUSS_hf_vdz_mompop.inp_267689/"
+ Entering Link 1 = /home/slavicek/G03/g09-altix/g09/l1.exe PID=     25023.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 09 program.  It is based on
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 09, Revision D.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, 
+ G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, 
+ A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, 
+ M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, 
+ Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., 
+ J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, 
+ K. N. Kudin, V. N. Staroverov, T. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, 
+ M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, 
+ V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, 
+ O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, 
+ R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, 
+ P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, 
+ O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski, 
+ and D. J. Fox, Gaussian, Inc., Wallingford CT, 2013.
+ 
+ ******************************************
+ Gaussian 09:  ES64L-G09RevD.01 24-Apr-2013
+                15-Apr-2020 
+ ******************************************
+ %mem=600Mb
+ %NprocShared=1
+ Will use up to    1 processors via shared memory.
+ ------------------------------
+ #HF/cc-pVDZ SP POP=AllOrbitals
+ ------------------------------
+ 1/38=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=16,11=9,16=1,25=1,30=1/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1,87=-1/1;
+ 99/5=1,9=1/99;
+ -------
+ comment
+ -------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ O                     0.        0.        0.96838 
+ H                     0.        0.        0. 
+ H                     0.93001   0.        1.20837 
+ 
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.968379
+      2          1           0        0.000000    0.000000    0.000000
+      3          1           0        0.930013    0.000000    1.208368
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.968379   0.000000
+     3  H    0.960478   1.524820   0.000000
+ Stoichiometry    H2O
+ Framework group  CS[SG(H2O)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Largest Abelian subgroup         CS      NOp   2
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.118130    0.000000
+      2          1           0        0.762383   -0.478971    0.000000
+      3          1           0       -0.762383   -0.466071    0.000000
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):    809.3783499    431.3096366    281.3702444
+ Standard basis: CC-pVDZ (5D, 7F)
+ There are    19 symmetry adapted cartesian basis functions of A'  symmetry.
+ There are     6 symmetry adapted cartesian basis functions of A"  symmetry.
+ There are    18 symmetry adapted basis functions of A'  symmetry.
+ There are     6 symmetry adapted basis functions of A"  symmetry.
+    24 basis functions,    47 primitive gaussians,    25 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy         9.1263093078 Hartrees.
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned on.
+ One-electron integrals computed using PRISM.
+ NBasis=    24 RedAO= T EigKep=  4.96D-02  NBF=    18     6
+ NBsUse=    24 1.00D-06 EigRej= -1.00D+00 NBFU=    18     6
+ ExpMin= 1.22D-01 ExpMax= 1.17D+04 ExpMxC= 4.01D+02 IAcc=1 IRadAn=         1 AccDes= 0.00D+00
+ Harris functional with IExCor=  205 and IRadAn=       1 diagonalized for initial guess.
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         1 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=     500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Initial guess orbital symmetries:
+       Occupied  (A') (A') (A') (A') (A")
+       Virtual   (A') (A') (A') (A') (A") (A') (A') (A') (A") (A")
+                 (A') (A') (A') (A') (A") (A") (A') (A') (A')
+ The electronic state of the initial guess is 1-A'.
+ Keep R1 ints in memory in symmetry-blocked form, NReq=898593.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(RHF) =  -76.0263296650     A.U. after   10 cycles
+            NFock= 10  Conv=0.37D-08     -V/T= 2.0009
+
+ **********************************************************************
+
+            Population analysis using the SCF density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (A') (A') (A') (A') (A")
+       Virtual   (A') (A') (A') (A') (A') (A") (A') (A') (A") (A")
+                 (A') (A') (A') (A') (A") (A") (A') (A') (A')
+ The electronic state is 1-A'.
+ Alpha  occ. eigenvalues --  -20.55171  -1.33312  -0.69539  -0.56533  -0.49265
+ Alpha virt. eigenvalues --    0.18433   0.25520   0.78388   0.84800   1.16401
+ Alpha virt. eigenvalues --    1.20025   1.25382   1.44538   1.47457   1.67311
+ Alpha virt. eigenvalues --    1.86876   1.92728   2.43360   2.47492   3.27926
+ Alpha virt. eigenvalues --    3.33203   3.50124   3.85774   4.13968
+          Condensed to atoms (all electrons):
+               1          2          3
+     1  O    7.587434   0.362152   0.364423
+     2  H    0.362152   0.512261  -0.033258
+     3  H    0.364423  -0.033258   0.513672
+ Mulliken charges:
+               1
+     1  O   -0.314009
+     2  H    0.158845
+     3  H    0.155164
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  O    0.000000
+ Electronic spatial extent (au):  <R**2>=             18.8175
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0052    Y=             -2.0638    Z=              0.0000  Tot=              2.0638
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -4.1084   YY=             -5.8872   ZZ=             -7.0496
+   XY=             -0.0201   XZ=              0.0000   YZ=              0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              1.5733   YY=             -0.2054   ZZ=             -1.3679
+   XY=             -0.0201   XZ=              0.0000   YZ=              0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=             -0.0135  YYY=             -1.1980  ZZZ=              0.0000  XYY=              0.0136
+  XXY=             -1.3150  XXZ=              0.0000  XZZ=             -0.0055  YZZ=             -0.2946
+  YYZ=              0.0000  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=             -5.5585 YYYY=             -5.8741 ZZZZ=             -4.8701 XXXY=              0.0040
+ XXXZ=              0.0000 YYYX=              0.0010 YYYZ=              0.0000 ZZZX=              0.0000
+ ZZZY=              0.0000 XXYY=             -1.5272 XXZZ=             -2.0426 YYZZ=             -1.8500
+ XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.0063
+ N-N= 9.126309307842D+00 E-N=-1.989903790019D+02  KE= 7.596150908098D+01
+ Symmetry A'   KE= 7.140284998078D+01
+ Symmetry A"   KE= 4.558659100198D+00
+
+ Atomic contributions to Alpha molecular orbitals:
+ Alpha occ 1 OE=-20.552 is O1-s=1.00
+ Alpha occ 2 OE=-1.333 is O1-s=0.73 H3-s=0.11 H2-s=0.11
+ Alpha occ 3 OE=-0.695 is O1-p=0.58 H3-s=0.20 H2-s=0.20
+ Alpha occ 4 OE=-0.565 is O1-p=0.75
+ Alpha occ 5 OE=-0.493 is O1-p=0.98
+ Alpha vir 6 OE=0.184 is H2-s=0.54 H3-s=0.52
+ Alpha vir 7 OE=0.255 is H3-s=0.51 H2-s=0.48
+ Alpha vir 8 OE=0.784 is H2-s=0.38 H3-s=0.31 O1-p=0.15
+ Alpha vir 9 OE=0.848 is H3-s=0.33 H2-s=0.26 H3-p=0.13 H2-p=0.12
+ Alpha vir 10 OE=1.164 is O1-p=0.90
+ Alpha vir 11 OE=1.200 is O1-p=0.99
+ Alpha vir 12 OE=1.254 is O1-p=1.08 H2-s=-0.10 H3-s=-0.10
+ Alpha vir 13 OE=1.445 is H3-p=0.34 H2-p=0.34 O1-s=0.12 O1-p=0.11
+ Alpha vir 14 OE=1.475 is H2-p=0.47 H3-p=0.47
+ Alpha vir 15 OE=1.673 is H3-p=0.45 H2-p=0.44
+ Alpha vir 16 OE=1.869 is O1-s=1.02
+ Alpha vir 17 OE=1.927 is H3-p=0.48 H2-p=0.47
+ Alpha vir 18 OE=2.434 is H2-p=0.56 H3-p=0.21 O1-p=0.13
+ Alpha vir 19 OE=2.475 is H3-p=0.53 H2-p=0.19 O1-d=0.11
+ Alpha vir 20 OE=3.279 is O1-d=0.93
+ Alpha vir 21 OE=3.332 is O1-d=0.94
+ Alpha vir 22 OE=3.501 is O1-d=0.92
+ Alpha vir 23 OE=3.858 is O1-d=0.82
+ Alpha vir 24 OE=4.140 is O1-d=0.89
+ 
+ 1\1\GINC-N25\SP\RHF\CC-pVDZ\H2O1\HOLLAS\15-Apr-2020\0\\#HF/cc-pVDZ SP 
+ POP=AllOrbitals\\comment\\0,1\O,0,0.,0.,0.968379\H,0,0.,0.,0.\H,0,0.93
+ 0013,0.,1.208368\\Version=ES64L-G09RevD.01\State=1-A'\HF=-76.0263297\R
+ MSD=3.694e-09\Dipole=0.6405157,0.,-0.4990483\Quadrupole=0.3355586,-1.0
+ 16977,0.6814184,0.,0.6383778,0.\PG=CS [SG(H2O1)]\\@
+
+
+ ...THE PHYSICISTS HAVE MADE THEIR UNIVERSE, AND IF YOU DO NOT LIKE
+ IT, YOU MUST MAKE YOUR OWN.
+                               -- E. R. HARRISON IN "COSMOLOGY" (1980)
+ Job cpu time:       0 days  0 hours  0 minutes  0.7 seconds.
+ File lengths (MBytes):  RWF=      5 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 09 at Wed Apr 15 21:33:58 2020.

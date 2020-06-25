@@ -1,0 +1,31 @@
+run            auger
+aes_pop        yes
+core_atom      0
+core_mo        0
+
+coordinates    ../water1.xyz
+method         rhf
+charge         0
+spinmult       1
+
+gpus           1
+basis          cc-pvtz-nof
+scrdir         scr-aes-1s-neutral-vtz
+guess          hcore
+
+precision      double
+threall        1.0e-20
+convthre       1.0e-7
+xtol           1.0e-4
+#sphericalbasis  1
+
+##### CASCI code param ############3
+casci         yes
+closed        1
+#active occupied orbitals+one virtual
+active        4
+
+cassinglets    10
+castriplets    6
+end
+

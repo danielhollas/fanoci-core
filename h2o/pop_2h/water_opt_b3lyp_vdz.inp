@@ -1,0 +1,12 @@
+charge   0
+spinmult 1
+coordinates ../water1.xyz
+
+basis    cc-pvdz
+method   b3lyp
+run      minimize
+
+scrdir scr-water_opt_b3lyp_vdz
+gpus  1
+end
+

@@ -1,0 +1,20 @@
+
+$molecule
+0 1
+O    -0.0099755784    0.0000000000    0.9726896344
+H     0.0080215243    0.0000000000    0.0034780470
+H     0.9319670541    0.0000000000    1.2005793185
+$end
+
+$rem
+METHOD         = EOM-CCSD
+SCF_ALGORITHM  = diis_gdm
+SYMMETRY       = false
+CC_SYMMETRY    = false
+DIP_SINGLETS   = [10]
+DIP_TRIPLETS   = [6]
+BASIS          = cc-pVTZ
+CC_EOM_PROP    = false
+CC_MEMORY      = 256
+EOM_DAVIDSON_CONVERGENCE = 6
+$end

@@ -1,0 +1,49 @@
+You are running Q-Chem version: 5.1.2
+
+#
+# job setting
+#
+local host:  n25
+current dir: /home/hollas/fanoci-core-repo/h2o/pop_2h
+input file:  eom-dip-vtz.inp
+output file: eom-dip-vtz.inp.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore
+QCAUX:       /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/qcaux
+QCPROG:      /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe
+QCPROG_S:    /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe_s
+PARALLEL:    FALSE
+QCMPI:       seq
+#
+# qchem directory setting
+#
+qcrun:       qchem14639
+QCSCRATCH:   /home/hollas/fanoci-core-repo/h2o/pop_2h
+QCLOCALSCR:  /scratch/hollas/QCHEM-eom-dip-vtz-283114
+QCTMPDIR:    /scratch/hollas/QCHEM-eom-dip-vtz-283114
+QCFILEPREF:  /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639
+QCSAVEDIR:   
+workdirs:    /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639
+workdir0:    /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639
+partmpdirs =  
+#
+# parallel setting
+#
+ invalid QCMPI (seq) option 
+QCRSH:           /usr/bin/ssh
+QCMPI:           seq
+QCMPIRUN:        
+QCMACHINEFILE:   /scratch/tmp/283114.1.nq-16-8/hostfile
+n25.vscht.cz:1
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639.0 -- /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639.0
+rm -rf /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639.0
+rm -rf /scratch/hollas/QCHEM-eom-dip-vtz-283114/qchem14639

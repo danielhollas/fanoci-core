@@ -1,0 +1,49 @@
+You are running Q-Chem version: 5.1.2
+
+#
+# job setting
+#
+local host:  n26
+current dir: /home/hollas/fanoci-core-repo/h2o/pop_2h
+input file:  eom-dip-sym-vdz.inp
+output file: eom-dip-sym-vdz.inp.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore
+QCAUX:       /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/qcaux
+QCPROG:      /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe
+QCPROG_S:    /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe_s
+PARALLEL:    FALSE
+QCMPI:       seq
+#
+# qchem directory setting
+#
+qcrun:       qchem11912
+QCSCRATCH:   /home/hollas/fanoci-core-repo/h2o/pop_2h
+QCLOCALSCR:  /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280
+QCTMPDIR:    /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280
+QCFILEPREF:  /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912
+QCSAVEDIR:   
+workdirs:    /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912
+workdir0:    /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912
+partmpdirs =  
+#
+# parallel setting
+#
+ invalid QCMPI (seq) option 
+QCRSH:           /usr/bin/ssh
+QCMPI:           seq
+QCMPIRUN:        
+QCMACHINEFILE:   /scratch/tmp/283280.1.nq-16-8/hostfile
+n26.vscht.cz:1
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912.0 -- /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912.0
+rm -rf /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912.0
+rm -rf /scratch/hollas/QCHEM-eom-dip-sym-vdz-283280/qchem11912
