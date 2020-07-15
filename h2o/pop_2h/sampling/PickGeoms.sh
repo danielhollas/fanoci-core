@@ -23,7 +23,7 @@
 #########SETUP###########
 movie=movie.xyz    # Input xyz file.
 output=geoms.xyz   # Output xyz file.
-nsample=300          # Number of samples. Greater than 0 or 0 for maximum number of samples (0 only with fixed offset)
+nsample=500          # Number of samples. Greater than 0 or 0 for maximum number of samples (0 only with fixed offset)
 random=1                # 0 - pick geometries using fixed offset
                         # 1 - pick geometries randomly
 step=50                 # fixed offset, every step-th geometry is taken

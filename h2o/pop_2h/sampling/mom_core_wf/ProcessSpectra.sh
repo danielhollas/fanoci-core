@@ -21,10 +21,10 @@ filesuffix="com.out" # i.e. "com.out" or "log"
 indices=""	# file with indices of geometries to use. Leave empty for using all geometries from istart to imax
 
 ## SETUP FOR SPECTRA GENERATION ## 
-gauss=0.2      # Uncomment for Gaussian broadening parameter in eV, set to 0 for automatic setting
-#lorentz=0.2   # Uncomment for Lorentzian broadening parameter in eV
-de=0.05        # Energy bin for histograms
-ioniz=false    # Set to "true" for ionization spectra (i.e. no transition dipole moments)
+#gauss=0 # Uncomment for Gaussian broadening parameter in eV, set to 0 for automatic setting
+lorentz=0.2  # Uncomment for Lorentzian broadening parameter in eV
+de=0.05     # Energy bin for histograms
+ioniz=false # Set to "true" for ionization spectra (i.e. no transition dipole moments)
 aes=true 
 ##############
 
