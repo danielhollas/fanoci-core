@@ -1,0 +1,311 @@
+Startfile from command line: fanoci_1s_mom_cvdz.inp
+
+
+       ***********************************************************
+       *                    TeraChem v1.93-fanoci                *
+       *                 Hg Version: cf679da1a57f+               *
+       *                   Development Version                   *
+       *                Compiled without textures                *
+       *           Chemistry at the Speed of Graphics!           *
+       ***********************************************************
+       * This program may only be used in connection with        *
+       * a valid license from PetaChem, LLC. Use of this program *
+       * or results thereof indicates acceptance of all terms    *
+       * and conditions stated in the license and that a valid   *
+       * license agreement between the user and PetaChem, LLC    *
+       * exists. PetaChem, LLC does not warrant the correctness  *
+       * of results or their suitability for any purpose.        *
+       * Please email bugs, suggestions, and comments to         *
+       *                  help@petachem.com                      *
+       *                                                         *
+       ***********************************************************
+
+
+       ***********************************************************
+       *  Compiled by hollas       Fri Nov 29 12:26:21 CET 2019  *
+       *  Supported architectures: sm_52 sm_60 sm_70             *
+       *  Cuda compilation tools, release 9.0, V9.0.176          *
+       ***********************************************************
+
+
+ Job started   Thu Jan 30 15:03:37 2020
+ On n29 (available memory: 52321 MB)
+
+######################################### RUNTIME INFO ##########################################
+/home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/bin/terachem fanoci_1s_mom_cvdz.inp 
+
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  415.25  Wed Dec 12 10:22:08 CST 2018
+GCC version:  gcc version 4.7.2 (Debian 4.7.2-5) 
+
+	linux-vdso.so.1 =>  (0x00007fff8e1ac000)
+	libcurl.so.4 => /usr/lib/x86_64-linux-gnu/libcurl.so.4 (0x00002ab9e123e000)
+	libgpubox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libgpubox.so.1 (0x00002ab9e14a8000)
+	libtensorbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libtensorbox.so.1 (0x00002ab9e16ae000)
+	libintbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libintbox.so.1 (0x00002ab9e18c7000)
+	libthcbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libthcbox.so.1 (0x00002ab9f7eb1000)
+	libgridbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libgridbox.so.1 (0x00002ab9f9288000)
+	libdftbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libdftbox.so.1 (0x00002ab9f96e3000)
+	libcibox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcibox.so.1 (0x00002ab9f99c6000)
+	libccbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libccbox.so.1 (0x00002ab9f9d61000)
+	libsandboxbox.so.1 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libsandboxbox.so.1 (0x00002ab9f9f62000)
+	libcuda.so.1 => /usr/local/programs/cuda/driver/usr/lib/x86_64-linux-gnu/libcuda.so.1 (0x00002ab9fa165000)
+	libcudart.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcudart.so.9.0 (0x00002ab9fb258000)
+	libcublas.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcublas.so.9.0 (0x00002ab9fb4c5000)
+	libcufft.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcufft.so.9.0 (0x00002ab9ff143000)
+	libcusparse.so.9.0 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcusparse.so.9.0 (0x00002aba071e4000)
+	libcrypto.so.1.0.0 => /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 (0x00002aba0a94a000)
+	libssl.so.1.0.0 => /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 (0x00002aba0ad45000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00002aba0afa6000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00002aba0b2ad000)
+	libcilkrts.so.5 => /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/lib/libcilkrts.so.5 (0x00002aba0b530000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00002aba0b76b000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00002aba0b981000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00002aba0bb9e000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002ab9e101c000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00002aba0bf29000)
+	libidn.so.11 => /usr/lib/x86_64-linux-gnu/libidn.so.11 (0x00002aba0c12d000)
+	libssh2.so.1 => /usr/lib/x86_64-linux-gnu/libssh2.so.1 (0x00002aba0c362000)
+	liblber-2.4.so.2 => /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2 (0x00002aba0c58b000)
+	libldap_r-2.4.so.2 => /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2 (0x00002aba0c79a000)
+	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00002aba0c9ec000)
+	libgssapi_krb5.so.2 => /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00002aba0cbf4000)
+	librtmp.so.0 => /usr/lib/x86_64-linux-gnu/librtmp.so.0 (0x00002aba0ce34000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00002aba0d04f000)
+	libnvidia-fatbinaryloader.so.415.25 => /usr/local/programs/cuda/driver/usr/lib/x86_64-linux-gnu/libnvidia-fatbinaryloader.so.415.25 (0x00002aba0d267000)
+	libgcrypt.so.11 => /lib/x86_64-linux-gnu/libgcrypt.so.11 (0x00002aba0d4b4000)
+	libresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00002aba0d734000)
+	libsasl2.so.2 => /usr/lib/x86_64-linux-gnu/libsasl2.so.2 (0x00002aba0d94a000)
+	libgnutls.so.26 => /usr/lib/x86_64-linux-gnu/libgnutls.so.26 (0x00002aba0db65000)
+	libkrb5.so.3 => /usr/lib/x86_64-linux-gnu/libkrb5.so.3 (0x00002aba0de26000)
+	libk5crypto.so.3 => /usr/lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00002aba0e0fa000)
+	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00002aba0e323000)
+	libkrb5support.so.0 => /usr/lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00002aba0e528000)
+	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00002aba0e731000)
+	libgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00002aba0e936000)
+	libtasn1.so.3 => /usr/lib/x86_64-linux-gnu/libtasn1.so.3 (0x00002aba0eb39000)
+	libp11-kit.so.0 => /usr/lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00002aba0ed4a000)
+#################################################################################################
+
+Cannot find license.dat file in the TeraChem installation directory /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build
+
+
+TRYING THE NETWORK LICENSE...
+Connecting to license server '403-as67-01' port '8080'...
+Connected!
+Checking your license...
+
+**************************************************************
+  Greetings, Petr Slavicek! You have 100 licenses in total
+  IN USE: 1
+  AVAILABLE: 99
+
+  ATTENTION: A NEWER TERACHEM VERSION (v.1.93) IS AVAILABLE
+  TO UPGRADE, PLEASE RUN 'terachem -u' OR CONTACT PETACHEM
+**************************************************************
+
+Jobname: water1
+Scratch directory: scr-fanoci-1s-mom-cvdz
+Random number seed: 1178873715
+
+XYZ coordinates ../water1.xyz
+Molden File Output: scr-fanoci-1s-mom-cvdz/water1.molden
+Using basis set: cc-pcvdz
+dmrgstart not found
+cibox_start not found
+Spin multiplicity: 2
+DIIS will use up to 10 vectors.
+Condition number limit for the DIIS overlap matrix is            0
+WF convergence threshold: 1.00e-08
+Using DIIS algorithm to converge WF
+Maximum number of SCF iterations: 100
+Incremental fock with rebuild every 8 iterations
+Will switch to conventional Fock if diffuse functions are detected
+X-matrix tolerance: 1.00e-05
+PRECISION: MIXED
+Single/Double precision threshold: 1.00e-03
+DFT Functional requested: hf
+Method: Hartree-Fock 
+Wavefunction: RESTRICTED OPEN SHELL
+Initial guess will be loaded from scr-fanoci-1s-neutral-cvdz/c0
+Number of excitations in initial orbital occupancy: 1 
+Maximum Overlap Method ON since SCF iteration 0!
+
+********************************************
+***** SINGLE POINT ENERGY CALCULATIONS *****
+********************************************
+
+****  FANO-CI 2e MO INTEGRAL DRIVER ON! ****
+Threshold for printing integrals is 1.00000e-11
+*************WARNING***************
+Unrecognized or unnecessary keywords:
+These are being ignored.
+   start_mom 0
+   mix_guess 0
+***********************************
+
+using 1 out of 1 CUDA devices
+   Device 0:  GeForce GTX TITAN X, 12212MB, CC 5.2 -- CPU THREAD 0
+-------------------------------------------------------------------
+Compiled with MAGMA support.  MAGMA parameters:
+    Matrices larger than 5000 square will be treated with MAGMA
+       (Change by setting the MagmaMinN environment variable)
+    Magma will use 1 out of 1 GPUs
+       (Change by setting the MagmaNGPUs environment variable)
+-------------------------------------------------------------------
+ CPU Memory Available: 16103.50 MegaWords 
+ GPU Memory Available: 1270.60 MegaWords 
+ Maximum recommended basis set size: 13300 basis functions
+ (limited by GPU memory)
+-------------------------------------------------------------------
+Reading basis set from file /home/hollas/programes/TeraChem-dev/production-fanoci-merge/build/basis/cc-pcvdz
+Using d-functions. Configuring GPUs accordingly.
+0: CUBLAS initialized, available GPU memory: 9577MB
+
+****** QM coordinates ******
+H         0.0000000000         0.0000000000         0.0000000000  
+O         0.0000000000         0.0000000000         0.9683790000  
+H         0.9300130000         0.0000000000         1.2083680000  
+
+Basis set:       cc-pcvdz
+Total atoms:     3
+Total charge:    1
+Total electrons: 9 (5-alpha, 4-beta)
+Number electrons modeled by ECPs: 0
+Total orbitals:  29
+Total AO shells: 14 (8 S-shells; 5 P-shells; 1 D-shells; 0 F-shells; 0 G-shells)
+Spin multiplicity: 2
+Nuclear repulsion energy (QM atoms): 9.126310008901 a.u.
+
+Reordering initial orbitals for MOM.
+Entering computation of MO integrals for FANO-CI.
+
+                      *** Start SCF Iterations ***
+
+ Iter     DIIS Error       Energy change         Energy        Time(s)
+------------------------------------------------------------------------
+Skip purify step
+Total MOM overlap 3.867471   / 4 
+Smallest overlap in the occupied space = 0.954095 
+   1     0.8853474414     -55.4755384627     -55.4755384627     0.07  
+Total MOM overlap 3.984790   / 4 
+Smallest overlap in the occupied space = 0.994534 
+   2     0.4371474476      -0.5466926315     -56.0222310941     0.07  
+Total MOM overlap 3.999964   / 4 
+Smallest overlap in the occupied space = 0.999986 
+   3     0.0156210170      -0.1554366535     -56.1776677476     0.06  
+Total MOM overlap 3.999999   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   4     0.0033209391      -0.0002767111     -56.1779444587     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   5     0.0004314383      -0.0000076590     -56.1779521177     0.06  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   6     0.0001024729      -0.0000004384     -56.1779525561     0.05  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   7     0.0000267130      -0.0000000227     -56.1779525788     0.04  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   8     0.0000015405      -0.0000000012     -56.1779525799     0.04  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+   9     0.0000002713      -0.0000000087     -56.1779525887     0.06  
+Total MOM overlap 4.000000   / 4 
+Smallest overlap in the occupied space = 1.000000 
+  10     0.0000000427      -0.0000000000     -56.1779525887     0.04  
+  11     0.0000000079      +0.0000000000     -56.1779525887     0.04  
+------------------------------------------------------------------------
+FINAL ENERGY: -56.1779525887 a.u.
+HOMO-LUMO GAP: alpha: 581.766 eV
+               beta:  -555.324 eV 
+CENTER OF MASS: {0.052041, 0.000000, 0.927620} ANGS
+DIPOLE MOMENT: {2.327243, 0.000000, -1.834721} (|D| = 2.963488) DEBYE
+SPIN SZ:         0.500000
+SPIN S-SQUARED: 0.750000 (exact: 0.75)
+Writing out molden info
+
+Running Mulliken population analysis...
+
+
+  Active Space Parameters
+--------------------------------------------
+Number of closed orbitals:               0
+Number of active orbitals:               6
+Number of virtual orbitals:             23
+Number of molecular orbitals:           29
+Number of basis functions:              29
+Number of active electrons:              9
+Number of alpha electrons:               5
+Number of beta electrons:                4
+
+  Orbital      Energy  
+-----------------------
+      1       -1.970099
+      2       -1.294642
+      3       -1.194074
+      4       -1.141250
+      5      -21.549046
+      6       -0.169533
+      7       -0.095354
+      8        0.369101
+
+  CAS Parameters
+--------------------------------------------
+Number of determinants:                 90
+Number of singlet CSFs:                  0
+Number of doublet CSFs:                 70
+Number of triplet CSFs:                  0
+Number of quartet CSFs:                 20
+Number of quintet CSFs:                  0
+Number of sextet CSFs:                   0
+Number of septet CSFs:                   0
+Number of singlet states:                0
+Number of doublet states:                0
+Number of triplet states:                0
+Number of quartet states:                0
+Number of quintet states:                0
+Number of sextet states:                 0
+Number of septet states:                 0
+Using the explicit solver
+
+Entering FANO-CI integral generation routine!
+/***** FINISHED INTEGRALS BETWEEN OCCUPIED ORBITALS ******/
+Number of frozen virtual orbitals: 0.
+Computing 2e MOints up to virtual orbital 29.
+Computing 2e MOints for virtual orbital 6.
+Computing 2e MOints for virtual orbital 7.
+Computing 2e MOints for virtual orbital 8.
+Computing 2e MOints for virtual orbital 9.
+Computing 2e MOints for virtual orbital 10.
+Computing 2e MOints for virtual orbital 11.
+Computing 2e MOints for virtual orbital 12.
+Computing 2e MOints for virtual orbital 13.
+Computing 2e MOints for virtual orbital 14.
+Computing 2e MOints for virtual orbital 15.
+Computing 2e MOints for virtual orbital 16.
+Computing 2e MOints for virtual orbital 17.
+Computing 2e MOints for virtual orbital 18.
+Computing 2e MOints for virtual orbital 19.
+Computing 2e MOints for virtual orbital 20.
+Computing 2e MOints for virtual orbital 21.
+Computing 2e MOints for virtual orbital 22.
+Computing 2e MOints for virtual orbital 23.
+Computing 2e MOints for virtual orbital 24.
+Computing 2e MOints for virtual orbital 25.
+Computing 2e MOints for virtual orbital 26.
+Computing 2e MOints for virtual orbital 27.
+Computing 2e MOints for virtual orbital 28.
+Computing 2e MOints for virtual orbital 29.
+Printing MO integrals between occupied orbitals.
+Succesfully build integrals. Exiting CASCI...
+
+Total CASCI Time
+----------------------------
+ Total Time:       1.07 sec
+----------------------------
+
+Total processing time: 1.66 sec 
+
+ Job finished: Thu Jan 30 15:03:44 2020
+

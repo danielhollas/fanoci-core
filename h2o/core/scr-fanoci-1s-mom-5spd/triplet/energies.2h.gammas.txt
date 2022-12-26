@@ -1,0 +1,6 @@
+   3.097494347583363 0.836273e-3
+   3.165851511644417 0.000888906
+   3.191961326909497 0        # Stieltjes did not converge
+   3.784709557231220 6.7e-3
+   3.807674201270979 0        # Stieltjes did not converge
+   3.878701015458525 0        # Stieljes did not converge

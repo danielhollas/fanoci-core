@@ -1,0 +1,17 @@
+run            energy
+coordinates    ../water1.xyz
+method         rhf
+charge         2
+spinmult       1
+
+gpus           1  0
+basis          aug-cc-pcvtz-nof
+scrdir         scr-fanoci-2h-acvtz
+
+precision      double
+threall        1.0e-20
+convthre       1.0e-8
+xtol           1.0e-5
+#sphericalbasis  1
+end
+

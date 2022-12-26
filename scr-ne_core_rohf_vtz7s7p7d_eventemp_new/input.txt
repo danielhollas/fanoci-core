@@ -1,0 +1,24 @@
+$prop
+        prop_type = "el"
+$end
+
+$init
+        hs_in = "1"
+        ps_in = "0"
+$end
+
+$final
+        h_f_min = 2
+        h_f_max = 5
+        p_f_min = 6
+        p_f_max = 0
+$end
+
+$control
+        n_occ = 5
+        prnt = 0
+        gam = "total"
+        moint = 0
+        eig_thresh = 0.05
+!        skipints = 1
+$end

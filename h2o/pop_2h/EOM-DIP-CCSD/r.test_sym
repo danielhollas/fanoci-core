@@ -1,0 +1,6 @@
+#$ -cwd
+#$ -e .
+#$ -o .
+#$ -V
+
+QCHEM test_sym.inp openmp 5.1 
