@@ -1,7 +1,7 @@
 
 Running Job 1 of 1 eom-dip-sym-vqz.inp
-qchem eom-dip-sym-vqz.inp_24969.0 /scratch/hollas/QCHEM-eom-dip-sym-vqz-283281/qchem24969/ 1
-/usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe_s eom-dip-sym-vqz.inp_24969.0 /scratch/hollas/QCHEM-eom-dip-sym-vqz-283281/qchem24969/
+qchem eom-dip-sym-vqz.inp_25737.0 /scratch/hollas/QCHEM-eom-dip-sym-vqz-291140/qchem25737/ 1
+/usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/exe/qcprog.exe_s eom-dip-sym-vqz.inp_25737.0 /scratch/hollas/QCHEM-eom-dip-sym-vqz-291140/qchem25737/
 Check license passed
 
                   Welcome to Q-Chem
@@ -74,12 +74,12 @@ Check license passed
  Parts of Q-Chem use Armadillo 8.300.2 (Tropical Shenanigans).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Thu Jun 25 14:09:45 2020  
+ Q-Chem begins on Thu Sep  3 14:46:15 2020  
 
 Host: 
 0
 
-     Scratch files written to /scratch/hollas/QCHEM-eom-dip-sym-vqz-283281/qchem24969//
+     Scratch files written to /scratch/hollas/QCHEM-eom-dip-sym-vqz-291140/qchem25737//
  Dec218 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
 Processing $rem in /usr/local/programs/common/qchem/qchem-5.1/arch/x86_64-multicore/config/preferences.
  MEM_TOTAL  2000 
@@ -110,8 +110,8 @@ METHOD         = EOM-CCSD
 SCF_ALGORITHM  = diis_gdm
 SYMMETRY       = true
 CC_SYMMETRY    = true
-DIP_SINGLETS   = [6,4]
-DIP_TRIPLETS   = [2,4]
+DIP_SINGLETS   = [7,3]
+DIP_TRIPLETS   = [3,3]
 BASIS          = cc-pVQZ
 CC_EOM_PROP    = false
 CC_MEMORY      = 1024
@@ -190,7 +190,7 @@ $end
    11     -76.0635305062      3.06e-08   Normal BFGS step
    12     -76.0635305062      7.72e-09  Convergence criterion met
  ---------------------------------------
- SCF time:   CPU 16.20s  wall 16.00s 
+ SCF time:   CPU 15.73s  wall 16.00s 
  SCF   energy in the final basis set =      -76.0635305062
  Total energy in the final basis set =      -76.0635305062
 
@@ -320,9 +320,9 @@ $end
 
  Import integrals:   CPU 0.00 s  wall 0.00 s
 
- Import integrals:   CPU 14.69 s  wall 17.48 s
+ Import integrals:   CPU 8.17 s  wall 8.50 s
 
- MP2 amplitudes:   CPU 0.24 s  wall 0.24 s
+ MP2 amplitudes:   CPU 0.25 s  wall 0.24 s
 
 Running a double precision version
            CCSD T amplitudes will be solved using DIIS.
@@ -375,7 +375,7 @@ End of double precision
  Computing CCSD intemediates for later calculations in double precision
  Finished.
 
- CCSD calculation:   CPU 44.68 s  wall 144.80 s
+ CCSD calculation:   CPU 45.41 s  wall 69.15 s
 
         Solving for EOMDIP-CCSD A' transitions to singlet states
 
@@ -385,160 +385,315 @@ End of double precision
      LinDepThresh=1.00e-15  NormThresh=1.00e-06  ReorthogonThresh=1.00e-02
 
       Roots     MaxVec    MaxIter   Precond   Conv      Shift    
-      6         120       60        1         1.00e-06  0.00e+00  
+      7         120       60        1         1.00e-06  0.00e+00  
  ------------------------------------------------------------------------------
       Iter ConvRoots NVecs ResNorm Current eigenvalues (eV)
  ------------------------------------------------------------------------------
-      0    0      6     5.72e-01   51.0048   54.4404   56.3431   60.2620   77.6342   81.5287   
-      1    0      12    4.10e-01   43.8280   48.1884   50.4098   54.7865   69.9624   74.7697   
-      2    0      18    4.35e-03   42.0387   46.5987   48.8346   53.3374   67.6438   72.4080   
-      3    0      24    1.06e-03   42.0078   46.5663   48.8096   53.2932   67.5105   72.2018   
-      4    0      30    3.34e-04   42.0067   46.5659   48.8081   53.2956   67.4970   72.1137   
-      5    4      36    4.78e-05   42.0066*  46.5657*  48.8080*  53.2951*  67.4901   72.0804   
-      6    4      38    7.79e-06   42.0066*  46.5657*  48.8080*  53.2951*  67.4892   72.0747   
-      7    5      40    5.65e-06   42.0066*  46.5657*  48.8080*  53.2951*  67.4890*  72.0718   
-      8    5      41    2.72e-06   42.0066*  46.5657*  48.8081*  53.2951*  67.4890*  72.0703   
-      9    5      42    2.00e-01   7.9091   42.0066*  46.5657*  48.8081*  53.2951*  67.4890*  
-      10   5      43    2.24e-03   -0.0137   42.0066*  46.5657*  48.8081*  53.2951*  67.4889*  
-      11   5      44    1.91e-05   -0.0005   42.0066*  46.5657*  48.8081*  53.2951*  67.4889*  
-      12   5      45    3.96e-07   0.0004   42.0066*  46.5657*  48.8081*  53.2951*  67.4889*  
-      13   6      46    1.73e-07   0.0000*  42.0066*  46.5657*  48.8081*  53.2951*  67.4889*  
+      0    0      7     5.85e-01   50.8755   54.2146   56.3431   59.7508   77.6268   81.5287   97.1977   
+      1    0      14    3.93e-01   43.7662   48.0903   50.4098   54.5315   69.8214   74.7697   88.5591   
+      2    0      21    5.36e-02   42.0346   46.5939   48.8346   53.3120   67.6196   72.4080   88.3738   
+      3    0      28    2.58e-02   42.0079   46.5673   48.8096   53.2963   67.5129   72.2018   85.8041   
+      4    0      35    2.46e-02   42.0066   46.5658   48.8081   53.2953   67.4941   72.1137   77.0743   
+      5    4      42    1.52e-03   42.0066*  46.5657*  48.8080*  53.2952*  67.4890   72.0804   75.0560   
+      6    5      45    8.89e-05   42.0066*  46.5657*  48.8080*  53.2952*  67.4888*  72.0747   74.9677   
+      7    5      47    1.36e-05   42.0066*  46.5657*  48.8080*  53.2952*  67.4889*  72.0718   74.9606   
+      8    5      49    3.80e-06   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  72.0703   74.9593   
+      9    5      51    6.64e-02   2.0836   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  72.0704   
+      10   5      53    7.41e-04   0.0129   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  72.0734   
+      11   5      55    4.78e-02   0.0033   1.1912   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  
+      12   6      57    1.74e-04   0.0001*  0.0079   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  
+      13   6      58    2.35e-05   0.0001*  0.0123   42.0066*  46.5657*  48.8081*  53.2952*  67.4889*  
+      14   5      59    4.12e-01   -0.0029   0.0001*  34.6950   42.0066*  46.5657*  48.8081*  53.2952*  
+      15   5      61    6.62e-03   -0.0017   0.0000*  13.0606   42.0066*  46.5657*  48.8081*  53.2952*  
+Found complex roots...
+      16   6      63    7.87e-05   0.0000*  0.0000*  12.8204   42.0066*  46.5657*  48.8081*  53.2952*  
+      17   6      64    2.71e-05   -0.0000*  0.0000*  12.8148   42.0066*  46.5657*  48.8081*  53.2952*  
+      18   5      65    6.89e-02   -0.0001*  0.0000*  8.7623   12.8345   42.0066*  46.5657*  48.8081*  
+      19   4      67    2.32e-01   -0.0000*  0.0000*  4.2837   12.8218   34.1650   42.0066*  46.5657*  
+Found complex roots...
+      20   3      70    6.17e-02   0.0000*  0.0000*  0.1947   3.7564   12.8200   26.2785   42.0066*  
+Rerun orthogonalization...
+Found complex roots...
+      21   2      74    5.56e-02   -0.0068   0.0000*  0.0000*  3.4110   12.8194   15.9767   20.3310   
+Rerun orthogonalization...
+Found complex roots...
+      22   2      79    1.15e-02   0.0000*  0.0000*  0.0011   3.3369   12.8174   14.5212   17.7048   
+Rerun orthogonalization...
+Found complex roots...
+      23   3      84    4.26e-03   -0.0000*  -0.0000*  0.0000*  3.3274   12.8162   14.1045   16.5982   
+Found complex roots...
+      24   3      88    4.80e-04   -0.0000*  0.0000*  0.0000*  3.3264   12.8162   14.0370   16.4537   
+Found complex roots...
+      25   5      92    5.89e-04   0.0000*  0.0000*  0.0000*  3.3263*  12.8161*  14.0257   16.4267   
+Found complex roots...
+      26   5      94    1.90e-02   0.0000*  0.0000*  0.0000*  3.3262*  5.4066   12.8161*  14.0255   
+Found complex roots...
+      27   6      96    1.60e-03   0.0000*  0.0000*  0.0000*  3.3262*  4.5883   12.8161*  14.0255*  
+Found complex roots...
+      28   6      97    5.70e-04   0.0000*  0.0000*  0.0000*  3.3262*  4.4667   12.8161*  14.0255*  
+Found complex roots...
+      29   6      98    7.78e-04   0.0000*  0.0000*  0.0000*  3.3262*  4.3881   12.8161*  14.0255*  
+Found complex roots...
+      30   5      99    3.48e-02   0.0000*  0.0000*  0.0000*  3.3262*  4.2585   9.6221   12.8161*  
+Found complex roots...
+      31   5      101   1.09e-02   0.0000*  0.0000*  0.0000*  3.3262*  4.1423   7.3273   12.8161*  
+Rerun orthogonalization...
+Found complex roots...
+      32   5      103   1.89e-02   0.0000*  0.0000*  0.0000*  3.3262*  3.7978   5.3698   12.8161*  
+Found complex roots...
+      33   4      105   2.97e-03   0.0000*  0.0000*  0.0000*  3.3262*  3.3517   4.8403   12.4623   
+Found complex roots...
+      34   4      108   7.82e-02   0.0000*  0.0000*  0.0000*  3.3262*  3.3352   4.8284   9.3029   
+Found complex roots...
+      35   4      111   7.60e-03   0.0000*  0.0000*  0.0000*  3.3262*  3.3296   4.8238   5.7514   
+Found complex roots...
+      36   4      114   4.45e-03   0.0000*  0.0000*  0.0000*  3.3262*  3.3263   4.8214   5.0712   
+Found complex roots...
+      37   4      117   3.23e-03   0.0000*  0.0000*  0.0000*  3.3262*  3.3264   4.6189   4.8220   
+Found complex roots...
+      38   6      120   5.30e-03   0.0000*  0.0000*  0.0000*  3.3262*  3.3262*  3.9099   4.8217*  
+Root= 2 Small norm=0.0000!
+      39   5      8     2.22e-03   0.0000*  0.0000*  0.2938   3.3262*  3.3262*  3.6661   4.8217*  
+      40   5      10    1.19e-03   0.0000*  0.0000*  0.0277   3.3262*  3.3262*  3.5123   4.8217*  
+      41   5      12    2.69e-04   -0.0013   -0.0000*  0.0000*  3.3262*  3.3262*  3.4298   4.8217*  
+Found complex roots...
+      42   5      14    1.63e-04   0.0000*  0.0000*  0.0005   3.3262*  3.3262*  3.4018   4.8217*  
+      43   6      16    7.39e-05   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3875   4.8217*  
+Found complex roots...
+      44   6      17    9.43e-05   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3798   4.8217*  
+      45   6      18    1.59e-04   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3590   4.8217*  
+      46   6      19    1.09e-04   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3446   4.8217*  
+      47   6      20    4.71e-05   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3328   4.8217*  
+      48   6      21    2.24e-05   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3288   4.8217*  
+Found complex roots...
+      49   6      22    4.65e-06   0.0000*  0.0000*  0.0003*  3.3262*  3.3262*  3.3270   4.8217*  
+      50   5      23    1.84e-04   0.0000*  0.0000*  0.0003*  3.3247   3.3262*  3.3262*  4.7985   
+Found complex roots...
+      51   5      25    3.51e-04   0.0000*  0.0000*  0.0003*  3.3243   3.3262*  3.3262*  4.7682   
+Found complex roots...
+      52   5      27    4.90e-02   0.0000*  0.0000*  0.0003*  2.8074   3.3262*  3.3262*  3.3366   
+Rerun orthogonalization...
+Found complex roots...
+      53   5      29    5.75e-03   0.0000*  0.0000*  0.0004*  0.4160   3.3259   3.3262*  3.3262*  
+      54   6      31    1.14e-03   -0.0000*  0.0000*  0.0003*  0.2097   3.3262*  3.3262*  3.3263*  
+Found complex roots...
+      55   6      32    3.18e-04   -0.0000*  0.0000*  0.0002*  0.0407   3.3262*  3.3262*  3.3263*  
+Found complex roots...
+      56   6      33    1.28e-04   0.0000*  0.0000*  0.0002*  0.0321   3.3262*  3.3262*  3.3262*  
+Found complex roots...
+      57   6      34    9.36e-05   -0.0000*  0.0000*  0.0003*  0.0261   3.3262*  3.3262*  3.3263*  
+Found complex roots...
+      58   7      35    7.07e-08   -0.0001*  -0.0001*  -0.0000*  0.0000*  3.3262*  3.3262*  3.3262*  
 
      Davidson procedure converged
 
  EOMDIP-CCSD transition 1/A'
- Total energy = -76.35040636 a.u.  Excitation energy = 0.0000 eV.
- R2^2 = 0.9906  R3^2 = 0.0094  Res^2 = 1.95e-08
+ Total energy = -76.35041134 a.u.  Excitation energy = -0.0001 eV.
+ R2^2 = 0.9988  R3^2 = 0.0078  Res^2 = 1.71e-08
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
- -0.8651       2 (A') A      4 (A') B                  ->    infty        
-  0.8651       2 (A') B      4 (A') A                  ->    infty        
-  0.4917       4 (A') A      2 (A') B                  ->    infty        
- -0.4917       4 (A') B      2 (A') A                  ->    infty        
+ -0.8257       2 (A') A      3 (A') B                  ->    infty        
+  0.8257       2 (A') B      3 (A') A                  ->    infty        
+  0.5350       3 (A') A      2 (A') B                  ->    infty        
+ -0.5350       3 (A') B      2 (A') A                  ->    infty        
+  0.1120       2 (A') A      4 (A') B                  ->    infty        
+ -0.1120       2 (A') B      4 (A') A                  ->    infty        
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
                2       Occ  Alpha       2 (A')     -1.3448
+               3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
                2       Occ  Beta        2 (A')     -1.3448
+               3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
 
 
  EOMDIP-CCSD transition 2/A'
- Total energy = -74.80669354 a.u.  Excitation energy = 42.0066 eV.
- R2^2 = 0.8751  R3^2 = 0.1249  Res^2 = 3.26e-08
+ Total energy = -76.35041134 a.u.  Excitation energy = -0.0001 eV.
+ R2^2 = 0.9988  R3^2 = 0.0078  Res^2 = 1.71e-08
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
-  0.9119       1 (A") A      1 (A") B                  ->    infty        
- -0.9119       1 (A") B      1 (A") A                  ->    infty        
- -0.1934       4 (A') A      4 (A') B                  ->    infty        
-  0.1934       4 (A') B      4 (A') A                  ->    infty        
+ -0.8257       2 (A') A      3 (A') B                  ->    infty        
+  0.8257       2 (A') B      3 (A') A                  ->    infty        
+  0.5350       3 (A') A      2 (A') B                  ->    infty        
+ -0.5350       3 (A') B      2 (A') A                  ->    infty        
+  0.1120       2 (A') A      4 (A') B                  ->    infty        
+ -0.1120       2 (A') B      4 (A') A                  ->    infty        
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
+               2       Occ  Alpha       2 (A')     -1.3448
+               3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
-               5       Occ  Alpha       1 (A")     -0.5078
+               2       Occ  Beta        2 (A')     -1.3448
+               3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
-               5       Occ  Beta        1 (A")     -0.5078
 
 
  EOMDIP-CCSD transition 3/A'
- Total energy = -74.63914830 a.u.  Excitation energy = 46.5657 eV.
- R2^2 = 0.8877  R3^2 = 0.1123  Res^2 = 1.04e-07
+ Total energy = -76.35040781 a.u.  Excitation energy = -0.0000 eV.
+ R2^2 = 0.9925  R3^2 = 0.0079  Res^2 = 1.64e-09
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
-  0.9078       4 (A') A      4 (A') B                  ->    infty        
- -0.9078       4 (A') B      4 (A') A                  ->    infty        
-  0.1776       1 (A") A      1 (A") B                  ->    infty        
- -0.1776       1 (A") B      1 (A") A                  ->    infty        
- -0.1443       3 (A') A      3 (A') B                  ->    infty        
-  0.1443       3 (A') B      3 (A') A                  ->    infty        
+  0.8279       2 (A') A      3 (A') B                  ->    infty        
+ -0.8279       2 (A') B      3 (A') A                  ->    infty        
+ -0.5371       3 (A') A      2 (A') B                  ->    infty        
+  0.5371       3 (A') B      2 (A') A                  ->    infty        
+ -0.1170       2 (A') A      4 (A') B                  ->    infty        
+  0.1170       2 (A') B      4 (A') A                  ->    infty        
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
+               2       Occ  Alpha       2 (A')     -1.3448
                3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
-               5       Occ  Alpha       1 (A")     -0.5078
+               2       Occ  Beta        2 (A')     -1.3448
                3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
-               5       Occ  Beta        1 (A")     -0.5078
 
 
  EOMDIP-CCSD transition 4/A'
- Total energy = -74.55674338 a.u.  Excitation energy = 48.8081 eV.
- R2^2 = 0.8900  R3^2 = 0.1100  Res^2 = 8.09e-08
+ Total energy = -76.35040639 a.u.  Excitation energy = 0.0000 eV.
+ R2^2 = 0.9920  R3^2 = 0.0080  Res^2 = 6.40e-10
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
-  0.6663       3 (A') A      4 (A') B                  ->    infty        
- -0.6663       3 (A') B      4 (A') A                  ->    infty        
-  0.6663       4 (A') A      3 (A') B                  ->    infty        
- -0.6663       4 (A') B      3 (A') A                  ->    infty        
+  0.8259       2 (A') A      3 (A') B                  ->    infty        
+ -0.8259       2 (A') B      3 (A') A                  ->    infty        
+ -0.5362       3 (A') A      2 (A') B                  ->    infty        
+  0.5362       3 (A') B      2 (A') A                  ->    infty        
+ -0.1205       2 (A') A      4 (A') B                  ->    infty        
+  0.1205       2 (A') B      4 (A') A                  ->    infty        
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
+               2       Occ  Alpha       2 (A')     -1.3448
                3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
+               2       Occ  Beta        2 (A')     -1.3448
                3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
 
 
  EOMDIP-CCSD transition 5/A'
- Total energy = -74.39184770 a.u.  Excitation energy = 53.2951 eV.
- R2^2 = 0.9026  R3^2 = 0.0974  Res^2 = 4.21e-07
+ Total energy = -76.22817046 a.u.  Excitation energy = 3.3262 eV.
+ R2^2 = 0.0001  R3^2 = 0.9999  Res^2 = 3.74e-07
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
- -0.9294       3 (A') A      3 (A') B                  ->    infty        
-  0.9294       3 (A') B      3 (A') A                  ->    infty        
-  0.1323       2 (A') A      2 (A') B                  ->    infty        
- -0.1323       2 (A') B      2 (A') A                  ->    infty        
- -0.1287       4 (A') A      4 (A') B                  ->    infty        
-  0.1287       4 (A') B      4 (A') A                  ->    infty        
+ -1.1774       3 (A') A      4 (A') B      4 (A') A    ->    5 (A') A     
+  1.1774       3 (A') B      4 (A') A      4 (A') B    ->    5 (A') B     
+  0.7543       3 (A') A      4 (A') A      4 (A') B    ->    5 (A') A     
+ -0.7543       3 (A') B      4 (A') B      4 (A') A    ->    5 (A') B     
+ -0.5814       4 (A') A      4 (A') B      3 (A') A    ->    5 (A') A     
+  0.5814       4 (A') B      4 (A') A      3 (A') B    ->    5 (A') B     
+  0.4210       4 (A') A      3 (A') B      4 (A') B    ->    5 (A') B     
+ -0.4210       4 (A') B      3 (A') A      4 (A') A    ->    5 (A') A     
+ -0.4156       4 (A') A      4 (A') B      3 (A') B    ->    5 (A') B     
+  0.4156       4 (A') B      4 (A') A      3 (A') A    ->    5 (A') A     
+  0.2914       4 (A') A      3 (A') A      4 (A') B    ->    5 (A') A     
+ -0.2914       4 (A') B      3 (A') B      4 (A') A    ->    5 (A') B     
+  0.2885       4 (A') A      3 (A') B      3 (A') A    ->    5 (A') A     
+ -0.2885       4 (A') B      3 (A') A      3 (A') B    ->    5 (A') B     
+ -0.2872       4 (A') A      3 (A') A      3 (A') B    ->    5 (A') A     
+  0.2872       4 (A') B      3 (A') B      3 (A') A    ->    5 (A') B     
+  0.1851       3 (A') A      3 (A') B      4 (A') B    ->    5 (A') B     
+ -0.1851       3 (A') B      3 (A') A      4 (A') A    ->    5 (A') A     
+  0.1515       3 (A') A      3 (A') B      4 (A') A    ->    5 (A') A     
+ -0.1515       3 (A') B      3 (A') A      4 (A') B    ->    5 (A') B     
+ -0.1463       3 (A') A      4 (A') A      3 (A') B    ->    5 (A') A     
+  0.1463       3 (A') B      4 (A') B      3 (A') A    ->    5 (A') B     
+ -0.1298       3 (A') A      4 (A') B      3 (A') B    ->    5 (A') B     
+  0.1298       3 (A') B      4 (A') A      3 (A') A    ->    5 (A') A     
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
-               2       Occ  Alpha       2 (A')     -1.3448
                3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
-               2       Occ  Beta        2 (A')     -1.3448
                3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
+               6       Vir  Alpha       5 (A')      0.1157
+               6       Vir  Beta        5 (A')      0.1157
 
 
  EOMDIP-CCSD transition 6/A'
- Total energy = -73.87023422 a.u.  Excitation energy = 67.4889 eV.
- R2^2 = 0.8315  R3^2 = 0.1685  Res^2 = 3.82e-07
+ Total energy = -76.22816945 a.u.  Excitation energy = 3.3262 eV.
+ R2^2 = 0.0001  R3^2 = 0.9999  Res^2 = 9.79e-09
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
-  0.6404       2 (A') A      4 (A') B                  ->    infty        
- -0.6404       2 (A') B      4 (A') A                  ->    infty        
-  0.6404       4 (A') A      2 (A') B                  ->    infty        
- -0.6404       4 (A') B      2 (A') A                  ->    infty        
+  0.9821       1 (A") A      4 (A') B      1 (A") B    ->    5 (A') B     
+ -0.9821       1 (A") A      1 (A") B      4 (A') B    ->    5 (A') B     
+ -0.9821       1 (A") B      4 (A') A      1 (A") A    ->    5 (A') A     
+  0.9821       1 (A") B      1 (A") A      4 (A') A    ->    5 (A') A     
+ -0.5098       1 (A") A      4 (A') A      1 (A") B    ->    5 (A') A     
+  0.5098       1 (A") A      1 (A") B      4 (A') A    ->    5 (A') A     
+ -0.5098       1 (A") B      1 (A") A      4 (A') B    ->    5 (A') B     
+  0.5098       1 (A") B      4 (A') B      1 (A") A    ->    5 (A') B     
+  0.5098       4 (A') A      1 (A") A      1 (A") B    ->    5 (A') A     
+ -0.5098       4 (A') A      1 (A") B      1 (A") A    ->    5 (A') A     
+  0.5098       4 (A') B      1 (A") A      1 (A") B    ->    5 (A') B     
+ -0.5098       4 (A') B      1 (A") B      1 (A") A    ->    5 (A') B     
+  0.1171       3 (A') A      4 (A') B      4 (A') A    ->    5 (A') A     
+ -0.1171       3 (A') B      4 (A') A      4 (A') B    ->    5 (A') B     
 
               Summary of significant orbitals:
 
                Number  Type             Irrep      Energy
-               2       Occ  Alpha       2 (A')     -1.3448
+               3       Occ  Alpha       3 (A')     -0.7040
                4       Occ  Alpha       4 (A')     -0.5835
-               2       Occ  Beta        2 (A')     -1.3448
+               5       Occ  Alpha       1 (A")     -0.5078
+               3       Occ  Beta        3 (A')     -0.7040
                4       Occ  Beta        4 (A')     -0.5835
+               5       Occ  Beta        1 (A")     -0.5078
+               6       Vir  Alpha       5 (A')      0.1157
+               6       Vir  Beta        5 (A')      0.1157
+
+
+ EOMDIP-CCSD transition 7/A'
+ Total energy = -76.22816899 a.u.  Excitation energy = 3.3262 eV.
+ R2^2 = 0.0001  R3^2 = 0.9999  Res^2 = 7.44e-08
+ Conv-d = yes
+
+ Amplitude    Transitions between orbitals
+  0.9709       4 (A') A      3 (A') B      3 (A') A    ->    5 (A') A     
+ -0.9709       4 (A') B      3 (A') A      3 (A') B    ->    5 (A') B     
+ -0.9655       4 (A') A      3 (A') A      3 (A') B    ->    5 (A') A     
+  0.9655       4 (A') B      3 (A') B      3 (A') A    ->    5 (A') B     
+  0.6226       3 (A') A      3 (A') B      4 (A') B    ->    5 (A') B     
+ -0.6226       3 (A') B      3 (A') A      4 (A') A    ->    5 (A') A     
+  0.5102       3 (A') A      3 (A') B      4 (A') A    ->    5 (A') A     
+ -0.5102       3 (A') B      3 (A') A      4 (A') B    ->    5 (A') B     
+ -0.4926       3 (A') A      4 (A') A      3 (A') B    ->    5 (A') A     
+  0.4926       3 (A') B      4 (A') B      3 (A') A    ->    5 (A') B     
+ -0.4351       3 (A') A      4 (A') B      3 (A') B    ->    5 (A') B     
+  0.4351       3 (A') B      4 (A') A      3 (A') A    ->    5 (A') A     
+ -0.1378       3 (A') A      4 (A') B      4 (A') A    ->    5 (A') A     
+  0.1378       3 (A') B      4 (A') A      4 (A') B    ->    5 (A') B     
+
+              Summary of significant orbitals:
+
+               Number  Type             Irrep      Energy
+               3       Occ  Alpha       3 (A')     -0.7040
+               4       Occ  Alpha       4 (A')     -0.5835
+               3       Occ  Beta        3 (A')     -0.7040
+               4       Occ  Beta        4 (A')     -0.5835
+               6       Vir  Alpha       5 (A')      0.1157
+               6       Vir  Beta        5 (A')      0.1157
 
 
         Solving for EOMDIP-CCSD A" transitions to singlet states
 
            EOMDIP-CCSD right amplitudes will be solved using Davidson.
-
- Warning: The number of roots will be reduced.
         Amplitudes will be solved using standard  algorithm.
      Hard-coded thresholds: 
      LinDepThresh=1.00e-15  NormThresh=1.00e-06  ReorthogonThresh=1.00e-02
@@ -628,24 +783,25 @@ End of double precision
      LinDepThresh=1.00e-15  NormThresh=1.00e-06  ReorthogonThresh=1.00e-02
 
       Roots     MaxVec    MaxIter   Precond   Conv      Shift    
-      2         120       60        1         1.00e-06  0.00e+00  
+      3         120       60        1         1.00e-06  0.00e+00  
  ------------------------------------------------------------------------------
       Iter ConvRoots NVecs ResNorm Current eigenvalues (eV)
  ------------------------------------------------------------------------------
-      0    0      2     5.85e-01   54.4640   70.9734   
-      1    0      4     3.67e-01   48.2516   63.0446   
-      2    0      6     3.04e-03   46.7664   61.3283   
-      3    0      8     5.12e-04   46.7247   61.2613   
-      4    0      10    7.16e-05   46.7225   61.2535   
-      5    0      12    7.36e-06   46.7221   61.2511   
-      6    1      14    1.13e-06   46.7220*  61.2508   
-      7    2      15    3.07e-07   46.7220*  61.2509*  
+      0    0      3     5.82e-01   54.4639   70.9734   73.7204   
+      1    0      6     3.62e-01   48.2126   63.0446   66.6733   
+      2    0      9     3.10e-03   46.7521   61.3283   65.0030   
+      3    0      12    5.78e-04   46.7228   61.2613   64.9331   
+      4    0      15    1.13e-04   46.7222   61.2535   64.9199   
+      5    1      18    1.32e-05   46.7220*  61.2511   64.9158   
+      6    1      20    3.15e-06   46.7220*  61.2508   64.9153   
+      7    2      22    1.08e-06   46.7220*  61.2509*  64.9155   
+      8    3      23    3.17e-07   46.7220*  61.2509*  64.9154*  
 
      Davidson procedure converged
 
  EOMDIP-CCSD transition 1/A'
- Total energy = -74.63340421 a.u.  Excitation energy = 46.7220 eV.
- R2^2 = 0.8837  R3^2 = 0.1163  Res^2 = 1.28e-07
+ Total energy = -74.63340315 a.u.  Excitation energy = 46.7220 eV.
+ R2^2 = 0.8837  R3^2 = 0.1163  Res^2 = 1.78e-07
  Conv-d = yes
 
  Amplitude    Transitions between orbitals
@@ -683,11 +839,29 @@ End of double precision
                4       Occ  Beta        4 (A')     -0.5835
 
 
+ EOMDIP-CCSD transition 3/A'
+ Total energy = -73.96480953 a.u.  Excitation energy = 64.9154 eV.
+ R2^2 = 0.8510  R3^2 = 0.1490  Res^2 = 2.85e-07
+ Conv-d = yes
+
+ Amplitude    Transitions between orbitals
+  0.6510       3 (A') A      2 (A') B                  ->    infty        
+  0.6510       3 (A') B      2 (A') A                  ->    infty        
+ -0.6510       2 (A') A      3 (A') B                  ->    infty        
+ -0.6510       2 (A') B      3 (A') A                  ->    infty        
+
+              Summary of significant orbitals:
+
+               Number  Type             Irrep      Energy
+               2       Occ  Alpha       2 (A')     -1.3448
+               3       Occ  Alpha       3 (A')     -0.7040
+               2       Occ  Beta        2 (A')     -1.3448
+               3       Occ  Beta        3 (A')     -0.7040
+
+
         Solving for EOMDIP-CCSD A" transitions to triplet states
 
            EOMDIP-CCSD right amplitudes will be solved using Davidson.
-
- Warning: The number of roots will be reduced.
         Amplitudes will be solved using standard  algorithm.
      Hard-coded thresholds: 
      LinDepThresh=1.00e-15  NormThresh=1.00e-06  ReorthogonThresh=1.00e-02
@@ -767,9 +941,9 @@ End of double precision
                5       Occ  Beta        1 (A")     -0.5078
 
 
- EOMDIP-CCSD calculation:   CPU 45.71 s  wall 65.27 s
+ EOMDIP-CCSD calculation:   CPU 201.66 s  wall 208.09 s
 
- Total ccman2 time:   CPU 107.67 s  wall 230.39 s
+ Total ccman2 time:   CPU 257.97 s  wall 288.52 s
 
  
  --------------------------------------------------------------
@@ -879,10 +1053,10 @@ End of double precision
       XZZZ       0.0000   YZZZ      -0.0000   ZZZZ      -6.0374
  -----------------------------------------------------------------
 Archival summary:
-1\1\n26\SP\ProcedureUnspecified\BasisUnspecified\12\hollas\ThuJun2514:13:532020ThuJun2514:13:532020\0\\#,ProcedureUnspecified,BasisUnspecified,\\0,1\O\H,1,0.969118\H,1,0.969379,2,102.537\\HF=-76.0635305\\@
+1\1\n02\SP\ProcedureUnspecified\BasisUnspecified\12\hollas\ThuSep314:51:202020ThuSep314:51:202020\0\\#,ProcedureUnspecified,BasisUnspecified,\\0,1\O\H,1,0.969118\H,1,0.969379,2,102.537\\HF=-76.0635305\\@
 
- Total job time:  247.86s(wall), 124.92s(cpu) 
- Thu Jun 25 14:13:53 2020
+ Total job time:  305.31s(wall), 274.29s(cpu) 
+ Thu Sep  3 14:51:20 2020
 
         *************************************************************
         *                                                           *

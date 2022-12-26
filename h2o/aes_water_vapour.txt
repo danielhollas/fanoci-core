@@ -1,7 +1,7 @@
 # Experimental data from:
 # The Auger electron spectrum of water vapour
 # Siegbahn, Kaspludn, Kelfve, Chem. Phys. Lett., 1975
-"Electron kinetic energy [eV]" "Net counts"
+#"Electron kinetic energy [eV]" "Net counts"
 443.17 1629.7
 443.44 1547.5
 444.31 1602.0
